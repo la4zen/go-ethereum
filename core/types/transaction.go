@@ -53,13 +53,13 @@ const (
 
 // Transaction is an Ethereum transaction.
 type Transaction struct {
-	inner TxData    // Consensus contents of a transaction
-	time  time.Time // Time first seen locally (spam avoidance)
+	inner TxData    `json:"inner,omitempty"` // Consensus contents of a transaction
+	time  time.Time `json:"time,omitempty"`  // Time first seen locally (spam avoidance)
 
 	// caches
-	hash atomic.Pointer[common.Hash]
-	size atomic.Uint64
-	from atomic.Pointer[sigCache]
+	hash atomic.Pointer[common.Hash] `json:"hash,omitempty"`
+	size atomic.Uint64               `json:"size,omitempty"`
+	from atomic.Pointer[sigCache]    `json:"from,omitempty"`
 }
 
 // NewTx creates a new transaction.
