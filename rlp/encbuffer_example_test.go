@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/la4zen/go-ethereum/rlp"
 )
 
 func ExampleEncoderBuffer() {

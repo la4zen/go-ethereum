@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/la4zen/go-ethereum/common"
+	"github.com/la4zen/go-ethereum/common/bitutil"
+	"github.com/la4zen/go-ethereum/metrics"
+	"github.com/la4zen/go-ethereum/p2p/rlpx"
+	"github.com/la4zen/go-ethereum/rlp"
 )
 
 const (

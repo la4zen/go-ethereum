@@ -24,8 +24,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/la4zen/go-ethereum/common"
+	"github.com/la4zen/go-ethereum/log"
 	"github.com/mattn/go-colorable"
 )
 

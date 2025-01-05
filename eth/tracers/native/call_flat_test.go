@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/la4zen/go-ethereum/common"
+	"github.com/la4zen/go-ethereum/core/tracing"
+	"github.com/la4zen/go-ethereum/core/types"
+	"github.com/la4zen/go-ethereum/core/vm"
+	"github.com/la4zen/go-ethereum/eth/tracers"
+	"github.com/la4zen/go-ethereum/params"
 	"github.com/stretchr/testify/require"
 )
 

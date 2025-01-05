@@ -17,18 +17,18 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/la4zen/go-ethereum/common"
+	"github.com/la4zen/go-ethereum/common/lru"
+	"github.com/la4zen/go-ethereum/consensus/beacon"
+	"github.com/la4zen/go-ethereum/consensus/ethash"
+	"github.com/la4zen/go-ethereum/core/state"
+	"github.com/la4zen/go-ethereum/core/stateless"
+	"github.com/la4zen/go-ethereum/core/types"
+	"github.com/la4zen/go-ethereum/core/vm"
+	"github.com/la4zen/go-ethereum/log"
+	"github.com/la4zen/go-ethereum/params"
+	"github.com/la4zen/go-ethereum/trie"
+	"github.com/la4zen/go-ethereum/triedb"
 )
 
 // ExecuteStateless runs a stateless execution based on a witness, verifies

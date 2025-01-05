@@ -22,9 +22,9 @@ import (
 	"math"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/la4zen/go-ethereum/common"
+	"github.com/la4zen/go-ethereum/crypto"
+	"github.com/la4zen/go-ethereum/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

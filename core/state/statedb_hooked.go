@@ -19,13 +19,13 @@ package state
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/la4zen/go-ethereum/common"
+	"github.com/la4zen/go-ethereum/core/stateless"
+	"github.com/la4zen/go-ethereum/core/tracing"
+	"github.com/la4zen/go-ethereum/core/types"
+	"github.com/la4zen/go-ethereum/crypto"
+	"github.com/la4zen/go-ethereum/params"
+	"github.com/la4zen/go-ethereum/trie/utils"
 	"github.com/holiman/uint256"
 )
 

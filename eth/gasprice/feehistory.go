@@ -26,13 +26,13 @@ import (
 	"slices"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/la4zen/go-ethereum/common"
+	"github.com/la4zen/go-ethereum/consensus/misc/eip1559"
+	"github.com/la4zen/go-ethereum/consensus/misc/eip4844"
+	"github.com/la4zen/go-ethereum/core/types"
+	"github.com/la4zen/go-ethereum/log"
+	"github.com/la4zen/go-ethereum/params"
+	"github.com/la4zen/go-ethereum/rpc"
 )
 
 var (

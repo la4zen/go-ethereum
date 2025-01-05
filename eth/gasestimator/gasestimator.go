@@ -23,14 +23,14 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/internal/ethapi/override"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/la4zen/go-ethereum/common"
+	"github.com/la4zen/go-ethereum/core"
+	"github.com/la4zen/go-ethereum/core/state"
+	"github.com/la4zen/go-ethereum/core/types"
+	"github.com/la4zen/go-ethereum/core/vm"
+	"github.com/la4zen/go-ethereum/internal/ethapi/override"
+	"github.com/la4zen/go-ethereum/log"
+	"github.com/la4zen/go-ethereum/params"
 )
 
 // Options are the contextual parameters to execute the requested call.

@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/la4zen/go-ethereum/crypto"
+	"github.com/la4zen/go-ethereum/eth/protocols/eth"
+	"github.com/la4zen/go-ethereum/eth/protocols/snap"
+	"github.com/la4zen/go-ethereum/p2p"
+	"github.com/la4zen/go-ethereum/p2p/rlpx"
+	"github.com/la4zen/go-ethereum/rlp"
 )
 
 var (

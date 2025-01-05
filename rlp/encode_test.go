@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/la4zen/go-ethereum/common/math"
 	"github.com/holiman/uint256"
 )
 

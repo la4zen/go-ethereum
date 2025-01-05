@@ -20,9 +20,9 @@ import (
 	"container/heap"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/la4zen/go-ethereum/common"
+	"github.com/la4zen/go-ethereum/core/txpool"
+	"github.com/la4zen/go-ethereum/core/types"
 	"github.com/holiman/uint256"
 )
 
